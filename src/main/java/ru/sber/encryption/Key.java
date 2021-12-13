@@ -1,4 +1,4 @@
-package ru.sber;
+package ru.sber.encryption;
 
 import java.util.List;
 

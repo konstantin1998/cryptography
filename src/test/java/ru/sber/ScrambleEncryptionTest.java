@@ -1,6 +1,9 @@
 package ru.sber;
 
 import org.junit.Test;
+import ru.sber.encryption.Key;
+import ru.sber.encryption.ScrambleEncryption;
+
 import java.util.Arrays;
 import java.util.List;
 import static org.junit.Assert.*;

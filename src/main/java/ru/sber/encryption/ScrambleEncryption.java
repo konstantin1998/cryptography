@@ -1,12 +1,9 @@
-package ru.sber;
+package ru.sber.encryption;
 
 import org.apache.commons.collections4.ListUtils;
 
-import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static ru.sber.Utils.saveToFile;

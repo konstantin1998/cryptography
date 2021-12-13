@@ -1,6 +1,7 @@
 package ru.sber;
 
 import org.junit.Test;
+import ru.sber.encryption.ShiftEncryption;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -38,8 +39,8 @@ public class ShiftEncryptionTest {
     @Test
     public void shouldDecryptWithMostProbableWord() {
         String encryptedText = "abc dzf";
-        String mostProbableWord = "DZF";
-        String initialText = "ABC DZF";
+        String mostProbableWord = "cye";
+        String initialText = "zab cye";
         assertEquals(initialText, ShiftEncryption.dragMostProbableWord(encryptedText, mostProbableWord));
     }
 }

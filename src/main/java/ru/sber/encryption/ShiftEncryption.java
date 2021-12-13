@@ -1,4 +1,4 @@
-package ru.sber;
+package ru.sber.encryption;
 
 import java.nio.file.Path;
 import static ru.sber.Utils.saveToFile;
